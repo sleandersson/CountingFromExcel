@@ -1,0 +1,529 @@
+Date Range: 2022-01-01 to 2023-12-31
+Total count of Testnamn: 53492
+Count of 'Adm': 12747
+Adjusted total (excluding 'Adm'): 40745
+
+Testnamn Counts:
+Testnamn
+33595                                               1.0
+29-1020-86                                          2.0
+2xFunk                                              6.0
+AAA                                              1814.0
+AAA                                               201.0
+AAA                                                 5.0
+AAA 1                                               2.0
+AAA ok 3                                            1.0
+AAA omk                                             1.0
+AAA omk 2                                           1.0
+AAAA                                                3.0
+ADM                                                 2.0
+ASE                                                27.0
+ASE omanalys                                        1.0
+Abs                                                34.0
+Aceton                                             17.0
+Adm                                             12747.0
+Akt                                                 4.0
+Akt Biacore                                         3.0
+Alllyl                                              1.0
+Allyl                                              43.0
+Allyl EtOH                                          1.0
+AllylSpecial(P)                                     1.0
+AllylSpecial(p)                                     1.0
+AllylSpecial[p]                                   106.0
+Allyl[p]                                          498.0
+Allyl[p] omanalys                                   1.0
+Allylh                                              1.0
+Allylhalt                                          47.0
+Allylhalt-EtOH                                      3.0
+Allyltitrering                                      7.0
+Assymetri                                           1.0
+Asymmetri                                           4.0
+Autofläde                                           2.0
+Autoflöde                                         294.0
+Autoflöde[p]                                      216.0
+Avrapp prod                                        24.0
+B/Flöde1                                            8.0
+B/Flöde2                                            8.0
+BSC-1                                               2.0
+BSC1                                               21.0
+Bild                                               36.0
+Bild/ Kross                                         8.0
+Bild/PSD                                            1.0
+Bildanalys                                        402.0
+Bildanalys [p]                                    161.0
+Bildanalys[p]                                      29.0
+Bilsanalys                                          4.0
+BnOH (FoU)                                          1.0
+BnOH Konc                                           3.0
+BnOH coc. (FOU)                                     1.0
+BnOH conc. (FOU)                                    2.0
+Bombflöde                                          95.0
+Bombflöde omk                                       3.0
+Bombflöde[p]                                      156.0
+Bombföde[p]                                        75.0
+Bottental                                           5.0
+COOH                                                3.0
+Cert                                               29.0
+Cert.                                              14.0
+Cert. Inlagt i Magic                                9.0
+CoA                                                26.0
+DNA                                                 8.0
+DNA-analys                                         51.0
+DQ                                                 10.0
+Dens                                              326.0
+Dxhalt-Torrh[p]                                    12.0
+E. Ag-ose                                           2.0
+E. Ag-ose [p]                                       1.0
+E. Excel                                           14.0
+E. Gjutning                                         5.0
+E. Plate                                            4.0
+E. Strip                                           54.0
+E. Strip Omanalys                                   1.0
+E. Vert                                             7.0
+E.Ag-ose                                            2.0
+E.Excel                                             2.0
+E.Strip                                             1.0
+ELISA                                               6.0
+Eff                                                36.0
+Effektivitet                                        3.0
+Elisa                                             307.0
+Endotoxin                                           8.0
+Epoxid                                              6.0
+Epoxid[p]                                         397.0
+Epoxidanlys                                         1.0
+Epoxidhalt                                          8.0
+Epoxyhalt                                           2.0
+Et20 konc                                           1.0
+EtOH                                                5.0
+EtOH halt                                           1.0
+EtOH v/v                                            1.0
+EtOH-halt                                          16.0
+Etanol                                              3.0
+Etanolhalt                                          1.0
+Etikett                                             2.0
+Exp                                                45.0
+Exp/ Vis [p]                                       21.0
+Extern[ALS]                                        36.0
+Extern[e]                                          11.0
+FOTO                                                5.0
+FTIR                                                1.0
+Fine Line Flöde                                     3.0
+FineLine Flöde                                      2.0
+FineLine flöde                                      3.0
+Fineline flöde                                      1.0
+Finns cert?                                         2.0
+Flöde                                              26.0
+Flöde (överför/beräkna)                            14.0
+Foto                                             4549.0
+Foto                                                1.0
+Foto[p]                                           251.0
+Fragment/kross                                     36.0
+Frystorkning                                      115.0
+Fukt                                              640.0
+Fukt/Torkvåg                                       55.0
+Fukt[p]                                            42.0
+FunK                                                1.0
+Funk                                             2007.0
+Funk                                               73.0
+Funk (Ny metod)                                     4.0
+Funk (QCSe)                                         1.0
+Funk Dextran                                        4.0
+Funk FPLC                                          25.0
+Funk HPLC(ÄKTA?)                                    2.0
+Funk TW20329                                        1.0
+Funk dext                                           2.0
+Funk dextran                                        2.0
+Funk m. dextran                                     1.0
+Funk med dextran                                    1.0
+Funk ny metod                                       3.0
+Funk special                                        1.0
+Funk*5                                              1.0
+Funk/BM                                            54.0
+Funk[Pure)                                          5.0
+Funk[Pure]                                          9.0
+Funktion                                            4.0
+Funktion, ny                                        1.0
+Färg                                               88.0
+FårInteLämnasTomt                                   3.0
+GC EtOH                                             6.0
+Gelkonc                                             1.0
+Gelkonc[p]                                         31.0
+Gyro                                                1.0
+HIC rening ÄKTA                                     1.0
+HIC-rening (ÄKTA)                                  19.0
+Halt                                               26.0
+Halt                                                5.0
+Halt & Renhe (SEC HPLC)                             1.0
+Halt & Renhet (SEC HPLC)                          317.0
+Halt & Renhet(SEC HPLC)                             5.0
+Halt (HPLC)                                       127.0
+Halt (SEC HPLC)                                    63.0
+Halt (ÄKTA explorer)                                2.0
+Halt (ÄKTA)                                         6.0
+Halt ferm. (ÄKTA)                                   1.0
+Halt(HPLC)                                         66.0
+Halt-Renhet (SEC HPLC)                              1.0
+ID                                                 59.0
+ID /MW (LS-MS)                                      6.0
+ID/MV                                               1.0
+ID/MV (LC-MS)                                       1.0
+ID/MW (LC-MS)                                     729.0
+ID/MW /LC-MS)                                       1.0
+ID/MW(LC/MS)                                       20.0
+IMR90                                              36.0
+IPG DryPlate 4-7, 18cm                              1.0
+IgG  akt (ÄKTA)                                   190.0
+IgG akt (ÄKTA)                                     18.0
+IgG bind. act                                       6.0
+Info till kund                                     26.0
+Infärgn                                             5.0
+Ingående bulk                                      26.0
+Inherent Visc.                                     86.0
+Inherent visk                                       1.0
+Int                                                22.0
+Joncap                                              2.0
+Jonkapacitet                                        3.0
+Järn                                                5.0
+Kap                                              1227.0
+Kap                                                11.0
+Kap (Amin)                                          5.0
+Kap HP                                             23.0
+Kap Mag                                            18.0
+Kap NI (ÄKTA)                                       1.0
+Kap NI(ÄKTA)                                        1.0
+Kap Ni                                             25.0
+Kap Ni(ÄKTA)                                       55.0
+Kap capto DEAE                                      2.0
+Kap. special                                        2.0
+KapSpecial                                          2.0
+Kap[T9]                                            14.0
+Kapacitet                                           2.0
+Kloridjonkapacitet                                  1.0
+Kol                                                14.0
+Kolonnpack                                         86.0
+Kolonnpackning                                      3.0
+Kolonntest                                          3.0
+Komb KD                                            35.0
+Komb KD och PSF                                    84.0
+Komb TH och PSF                                   169.0
+Konc & Renhet SEC (HPLC)                            2.0
+Konc & renhet SEC (HPLC)                            1.0
+Koncentration                                       2.0
+Kond.                                              24.0
+Kont.räkn                                           2.0
+Kross                                             167.0
+Kross/foto                                        363.0
+Kub+EDTA                                            9.0
+Kväve                                             145.0
+Kväve (Beräkning)                                  20.0
+Kväve[Eurofins]                                     1.0
+LC-MS                                              28.0
+LC-MS Omanalys                                      1.0
+Lagertjocklek                                      52.0
+Lagertjoclek                                        1.0
+Lig                                                39.0
+Ligand                                             23.0
+Ligand                                              2.0
+Ligand (NMR)                                       56.0
+Ligandhalt                                          4.0
+Linearitet                                          2.0
+Linj.                                              16.0
+Linjäritet                                         15.0
+Lotstatus ingående FH                              56.0
+Läck                                              304.0
+Läck                                                2.0
+Läckage                                             4.0
+Läkage                                              2.0
+MabSelect PrismA                                    1.0
+Mikro                                               1.0
+Mikrokemi/Svavel[e]                                 8.0
+Mikrolab                                           17.0
+Mikroskopering                                      1.0
+Mikroskopiering                                     1.0
+Molv.                                              37.0
+Mottr                                              27.0
+Mottryck                                            9.0
+NHS act Mag Seph                                    2.0
+NMR                                                 1.0
+NMR 300                                            24.0
+NMR300                                              1.0
+Ny Funk                                             1.0
+Ny analysmetod av Funk                              9.0
+Omanalys 2 konc                                     1.0
+Omanalys DQ                                         1.0
+Optisk vridning                                    22.0
+Osm                                               149.0
+Osm[p]                                             31.0
+PSAF 140 µm                                         2.0
+PSD                                                96.0
+PSD (ink resp.faktor o bild)                        1.0
+PSD (sikt)                                          5.0
+PSD 140 µm                                          3.0
+PSD 140µm                                           1.0
+PSD 280                                            10.0
+PSD 280 µm                                          8.0
+PSD 280(sikt)                                       1.0
+PSD 280µm                                           6.0
+PSD 280µm (sikt)                                    1.0
+PSD 400 µm                                          3.0
+PSD 560                                             7.0
+PSD 560 (sikt)                                      5.0
+PSD 560 µm                                          3.0
+PSD 560µm                                           1.0
+PSD ink. responsfaktor                              1.0
+PSD(bred fördelning)                                2.0
+PSD-400µm                                           1.0
+PSF                                                37.0
+PSF (ass)                                          61.0
+PSF (sikt)                                          2.0
+PSF (siktpr)                                        1.0
+PSF (siktpr) 100 µm                                34.0
+PSF (siktpr) 140 µm                               111.0
+PSF (siktpr) 280 µm                               325.0
+PSF 100                                             1.0
+PSF 100 µm                                         56.0
+PSF 100µm                                           1.0
+PSF 140                                            57.0
+PSF 140 µm                                         53.0
+PSF 140 µm[p]                                     123.0
+PSF 140(Sikt)                                       8.0
+PSF 280                                           463.0
+PSF 280 µm                                        897.0
+PSF 280 µm [p]                                     68.0
+PSF 280 µm[p]                                     224.0
+PSF 280/PCA                                        34.0
+PSF 280/PCA[p]                                    329.0
+PSF 280µm                                           3.0
+PSF 400                                           131.0
+PSF 400 µm                                        318.0
+PSF 560                                           159.0
+PSF 560 (sikt)                                      1.0
+PSF 560 µm                                         21.0
+PSF Omk                                             1.0
+PSF(assoc)                                         43.0
+PSF(siktfraktion)                                   1.0
+PSF(siktpr) 140 µm                                  2.0
+PSF?                                               45.0
+PSF? 140                                           73.0
+PSF[p] 280                                         61.0
+PSF[p] 280 µm                                       8.0
+PVP                                                26.0
+Packning FF                                         3.0
+Packning HP                                         3.0
+Paralellkörning Pure, packa 2 extra kolonner        1.0
+Part                                               12.0
+Partikel                                            1.0
+Plas funk                                          13.0
+Porositet                                         279.0
+Porositet m. dex                                    1.0
+Porositet, dextraner                                4.0
+Porosity + dex                                      1.0
+Prot.kap                                            4.0
+Psf 560                                             2.0
+QAAP                                              125.0
+QB                                                  9.0
+Qb                                                620.0
+Qb                                                139.0
+Refprov                                             1.0
+Renhet                                              4.0
+Renhet SEC (HPLC)                                   1.0
+Resopnsfaktor                                       3.0
+Resp.(bild+sikt)                                    1.0
+Responsfaktor                                      22.0
+RestAllyl                                          82.0
+Restallyl                                          19.0
+Restallyl[p]                                       24.0
+Restallylhalt                                       3.0
+RoA (lig)                                          11.0
+SDS                                                19.0
+SDS                                                 1.0
+SEC                                               164.0
+SEC Halt                                            4.0
+SEC Halt & Renhet (ÄKTA)                          238.0
+SEC Halt och Renhet HPLC                            1.0
+SEC Renhet                                          3.0
+SEC/TDS                                             1.0
+SEC/TDS (Uppdrag QCBM                               1.0
+SEC[p]                                             70.0
+SPE                                                25.0
+SPE omanalys                                        1.0
+Scissa Protein (In House)                           1.0
+Scissa konc.(SEC HPLC)                             24.0
+Sel. RI(ÄKTA)                                      81.0
+Sel. RI[ÄKTA]                                       1.0
+Sel. gelf.                                         11.0
+Sel. gelf.(HPLC)                                    4.0
+Sel.RI(ÄKTA)                                        4.0
+Sel.gelf                                            4.0
+Sel.gelf.(PURE)                                     6.0
+Sel/dex                                            69.0
+Selektivitet                                       17.0
+Sikt                                                2.0
+Slurry                                             72.0
+Slut                                                7.0
+Småflöde                                           69.0
+Spec. vrid                                         86.0
+Spec.vrid                                           1.0
+Specifik vridning                                  21.0
+Spekt                                              77.0
+Status ingående FH                                  1.0
+Steg flöde                                          1.0
+Stegflöde                                         428.0
+Stegflöde[p]                                      104.0
+Steglöde[p]                                        16.0
+Sub                                               132.0
+Sub                                                 5.0
+Sub[ALS]                                           15.0
+Sub[svavel]                                         9.0
+Subgr                                             181.0
+Subgrad NHS                                         1.0
+Subst                                               4.0
+Svavel [ALS]                                        1.0
+Svavel(ALS)                                         1.0
+Svavel[ALS]                                        93.0
+Svavel[ALS]                                        12.0
+Svavel[e]                                          59.0
+Sväll t kap                                         4.0
+Svälln[p]                                          49.0
+Svällning                                         263.0
+T.Fukt                                            289.0
+T.Fukt[p]                                           2.0
+T.Svälln[p]                                         2.0
+T.Torrhalt[p]                                       1.0
+T.Torråterstod                                     22.0
+T/Flöde[p]                                         15.0
+T9 Fukt                                           363.0
+T9 Svällning                                      180.0
+T9 fukt                                             1.0
+T9/DQ                                             185.0
+T9/Diatriz                                         84.0
+T9/Kap                                            262.0
+T9/Kap (Amin)                                       6.0
+T9/Kap/Cl                                         529.0
+T9/Kap/H                                           67.0
+T9/NaCl                                            25.0
+TM                                                 78.0
+TW                                                  2.0
+Toluen                                             62.0
+Tork                                                6.0
+Tork [p]                                           67.0
+Tork[ALS]                                           3.0
+Torkförlust                                         1.0
+Torkförlust (Uppdrag QCAff)                         1.0
+Torkning                                           61.0
+Torkning                                            2.0
+Torkv                                            1831.0
+Torkv                                               4.0
+Torkv Dextran[p]                                   11.0
+Torkv [ALS]                                        11.0
+Torkv [kub]                                         8.0
+Torkv omk 2                                         2.0
+Torkv omk 3                                         1.0
+Torkv(ALS)                                         13.0
+Torkv(ALS)                                         25.0
+Torkv.                                              2.0
+Torkv.                                              2.0
+Torkv/dx-halt                                       2.0
+Torkv[ALS]                                         31.0
+Torkv[ALS]                                         17.0
+Torkv[e]                                            1.0
+Torrh                                             178.0
+Torrh                                               2.0
+Torrh (ALS)                                         1.0
+Torrh(ALS)                                          3.0
+Torrh(vakuum)                                      18.0
+Torrh.                                              4.0
+Torrh[ALS]                                         47.0
+Torrh[ALS]                                         28.0
+Torrh[Eurofins]                                     1.0
+Torrh[e]                                            9.0
+Torrhalt                                          129.0
+Torrhalt                                            5.0
+Torrhalt [p]                                      163.0
+Torrkv.                                             1.0
+Torrv                                               2.0
+Torrvikt                                           12.0
+Torvikt                                             3.0
+Totalkap                                            2.0
+Totalkapacitet                                      1.0
+Toto                                                1.0
+Trendning                                           1.0
+Tryck flöde                                         7.0
+Tryckflöde                                        357.0
+Tryckflöde[p]                                       8.0
+Tungmetaller (ALS Scand.)                           1.0
+UV                                                 55.0
+Upplösning                                         14.0
+VERO                                               16.0
+VIS                                                 2.0
+VacSub                                              8.0
+VacTorrh                                           10.0
+Vattenh                                             4.0
+Vattenh [p]                                         4.0
+Vattenh[p]                                        182.0
+Vattenhalt                                          4.0
+Vero                                                2.0
+Vis                                              3104.0
+Vis kont                                            1.0
+Vis torra                                           2.0
+Vis. Kontroll                                       1.0
+Vis. kontroll kolonn                                4.0
+Vis/Kap                                            19.0
+Vis/Kap/QB                                         24.0
+Vis/Volym                                          71.0
+Vis/blöta                                         515.0
+Vis/torra                                         853.0
+Vis[p]                                            356.0
+Visk                                               36.0
+Visuell kontroll                                    2.0
+WR                                                  8.0
+Wr                                                430.0
+XLFlöde                                            12.0
+XLflöde                                            15.0
+Ytarea                                             18.0
+Ytaria                                              2.0
+Zmax protein                                        1.0
+ZätA Frozen Hold (Z4 Optec)                         1.0
+aaa                                                 1.0
+adm                                                44.0
+allyl                                               2.0
+autoflöde                                           2.0
+bild                                                2.0
+bildanalys                                          1.0
+bindn.kap                                           1.0
+bomb.fl                                             4.0
+bombflöde                                           2.0
+d50[p]                                            212.0
+dynam.bind.                                         1.0
+foto                                               19.0
+funk                                               10.0
+kap                                                18.0
+kap(Amin)                                           1.0
+kloridjonkap                                        2.0
+kolonnpack                                          1.0
+kolonnpackning                                      1.0
+linj.                                               2.0
+linjaritet                                          2.0
+mottryck                                            1.0
+pH                                                453.0
+pH                                                  1.0
+pH överlösning                                      2.0
+pH-analys                                           1.0
+porositet                                           3.0
+process                                            57.0
+prot .k                                           122.0
+prot.k                                             28.0
+provberedning spec. vridning                       22.0
+psd                                                 2.0
+psf                                                 2.0
+psf (ass)                                           1.0
+psf 280                                             1.0
+responsfaktor                                       1.0
+svällning                                           1.0
+test                                                1.0
+vis                                                 8.0
+vis/torra                                           1.0
+Överföring                                       1500.0
+överf. Resultat                                    44.0
+överför ffp res.                                   14.0
+
