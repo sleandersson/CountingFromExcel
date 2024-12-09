@@ -4,7 +4,13 @@ from tkinter import ttk
 from tkcalendar import DateEntry
 import threading
 import time
+import logging
+import sys
 
+# Setup logging
+logging.basicConfig(filename='error.log', level=logging.ERROR)
+
+# Global variables
 global stop_timer
 
 def select_file1():
@@ -38,76 +44,81 @@ def update_elapsed_time():
         time.sleep(0.1)  # Update every 0.1 seconds for smoother updates
 
 def process_files():
-    start_time = time.time()
-    
-    # Get the date range from the user inputs
-    start_date = start_date_entry.get_date().strftime('%Y-%m-%d')
-    end_date = end_date_entry.get_date().strftime('%Y-%m-%d')
-    
-    # Get the file paths
-    file1 = file1_var.get()
-    file2 = file2_var.get()
-    
-    # Check if at least one file path is provided
-    if not file1:
-        messagebox.showerror("Error", "Please select at least one Excel file.")
-        progress_bar.stop()
-        global stop_timer
+    try:
+        start_time = time.time()
+
+        # Get the date range from the user inputs
+        start_date = start_date_entry.get_date().strftime('%Y-%m-%d')
+        end_date = end_date_entry.get_date().strftime('%Y-%m-%d')
+
+        # Get the file paths
+        file1 = file1_var.get()
+        file2 = file2_var.get()
+
+        # Check if at least one file path is provided
+        if not file1:
+            messagebox.showerror("Error", "Please select at least one Excel file.")
+            progress_bar.stop()
+            global stop_timer
+            stop_timer = True
+            return
+
+        # Columns to read from the Excel files
+        columns = ['Indatum', 'Testnamn']
+
+        # Load the first Excel file into a DataFrame
+        df1 = pd.read_excel(file1, engine='openpyxl', usecols=columns)
+
+        if file2:
+            # Load the second Excel file into a DataFrame
+            df2 = pd.read_excel(file2, engine='openpyxl', usecols=columns)
+            # Combine the two DataFrames into one
+            df = pd.concat([df1, df2])
+        else:
+            df = df1
+
+        # Filter based on date strings first
+        filtered_df = df[(df['Indatum'] >= start_date) & (df['Indatum'] <= end_date)]
+
+        # Convert the filtered date column to datetime
+        filtered_df['Indatum'] = pd.to_datetime(filtered_df['Indatum'], errors='coerce')
+
+        # Debug prints to check filtering results
+        print(f"Filtered DataFrame:\n{filtered_df.head()}")
+
+        # Count the occurrences of 'Testnamn'
+        testname_counts = filtered_df['Testnamn'].value_counts()
+        total_count = filtered_df['Testnamn'].count()
+        adm_count = filtered_df[filtered_df['Testnamn'] == 'Adm'].shape[0]
+
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+
+        # Append the results to a text file
+        with open('SumTests_SearchLog.txt', 'a') as f:
+            f.write(f"Date Range: {start_date} to {end_date}\n")
+            f.write(f"Total count of Testnamn: {total_count}\n")
+            f.write(f"Count of 'Adm': {adm_count}\n")
+            f.write(f"Search time: {elapsed_time:.2f} seconds\n")
+            f.write("\nTestnamn Counts:\n")
+            f.write(testname_counts.to_string())
+            f.write("\n\n")
+
+        # Stop the elapsed time update thread
         stop_timer = True
-        return
-    
-    # Columns to read from the Excel files
-    columns = ['Indatum', 'Testnamn']
-    
-    # Load the first Excel file into a DataFrame
-    df1 = pd.read_excel(file1, engine='openpyxl', usecols=columns)
 
-    if file2:
-        # Load the second Excel file into a DataFrame
-        df2 = pd.read_excel(file2, engine='openpyxl', usecols=columns)
-        # Combine the two DataFrames into one
-        df = pd.concat([df1, df2])
-    else:
-        df = df1
+        # Update elapsed time display one last time
+        elapsed_time_var.set(f"Elapsed time: {elapsed_time:.2f} seconds")
 
-    # Filter based on date strings first
-    filtered_df = df[(df['Indatum'] >= start_date) & (df['Indatum'] <= end_date)]
+        # Show a messagebox with the results
+        messagebox.showinfo("Results", f"Period: {start_date} to {end_date}\nTotal count: {total_count}")
 
-    # Convert the filtered date column to datetime
-    filtered_df['Indatum'] = pd.to_datetime(filtered_df['Indatum'], errors='coerce')
+        # Stop progress bar
+        progress_bar.stop()
 
-    # Debug prints to check filtering results
-    print(f"Filtered DataFrame:\n{filtered_df.head()}")
-
-    # Count the occurrences of 'Testnamn'
-    testname_counts = filtered_df['Testnamn'].value_counts()
-    total_count = filtered_df['Testnamn'].count()
-    adm_count = filtered_df[filtered_df['Testnamn'] == 'Adm'].shape[0]
-
-    end_time = time.time()
-    elapsed_time = end_time - start_time
-
-    # Append the results to a text file
-    with open('SumTests_SearchLog.txt', 'a') as f:
-        f.write(f"Date Range: {start_date} to {end_date}\n")
-        f.write(f"Total count of Testnamn: {total_count}\n")
-        f.write(f"Count of 'Adm': {adm_count}\n")
-        f.write(f"Search time: {elapsed_time:.2f} seconds\n")
-        f.write("\nTestnamn Counts:\n")
-        f.write(testname_counts.to_string())
-        f.write("\n\n")
-
-    # Stop the elapsed time update thread
-    stop_timer = True
-
-    # Update elapsed time display one last time
-    elapsed_time_var.set(f"Elapsed time: {elapsed_time:.2f} seconds")
-
-    # Show a messagebox with the results
-    messagebox.showinfo("Results", f"Period: {start_date} to {end_date}\nTotal count: {total_count}")
-
-    # Stop progress bar
-    progress_bar.stop()
+    except Exception as e:
+        logging.error("An error occurred", exc_info=True)
+        messagebox.showerror("Error", f"An error occurred: {e}")
 
 # Create the main window
 root = Tk()
@@ -147,4 +158,3 @@ close_button.grid(row=7, column=0, columnspan=2, padx=10, pady=10)
 
 # Run the main loop
 root.mainloop()
-
