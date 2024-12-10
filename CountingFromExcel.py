@@ -24,7 +24,7 @@ stop_process = False
 
 # Create Tk root window
 root = Tk()
-root.title("Excel Testname Counter")
+root.title("Excel Testname Counter by Staffan Leandersson")
 
 # Initialize checkbox variables
 log_csv = IntVar(value=1)  # Default checked
